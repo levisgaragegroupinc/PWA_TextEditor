@@ -43,7 +43,7 @@ module.exports = () => {
             // fill in the name of the icon image file(s)
             src: path.resolve("src/images/name.png"),
             // fill in the image sizes.
-            sizes: [],
+            sizes: [96, 128, 192, 256, 384, 512],
             distination: path.join("assets", "icons"),
           },
         ],
