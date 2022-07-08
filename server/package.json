@@ -5,6 +5,7 @@
     "main": "server.js",
     "scripts": {
         "server": "nodemon server.js --ignore client"
+
     },
     "keywords": [],
     "author": "",
