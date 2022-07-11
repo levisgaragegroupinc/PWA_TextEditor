@@ -36,15 +36,15 @@ module.exports = () => {
         background_color: "#141C3A",
         // select a theme color #000000
         theme_color: "#141C3A",
-        start_url: "/",
-        publicPath: "/",
+        start_url: "/", // debate in class as to whether the dot in front of the slash is needed.
+        publicPath: "/", // debate in class as to whether the dot in front of the slash is needed.
         icons: [
           {
             // fill in the name of the icon image file(s)
             src: path.resolve("src/images/logo.png"),
             // fill in the image sizes.
             sizes: [96, 128, 192, 256, 384, 512],
-            distination: path.join("assets", "icons"),
+            distination: path.join("assets", "icons"), // file name is src here instead of assets as in the mini project.
           },
         ],
       }),
