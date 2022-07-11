@@ -26,7 +26,7 @@ if (typeof editor === "undefined") {
 // Check if service workers are supported
 if ("serviceWorker" in navigator) {
   // register workbox service worker
-  const workboxSW = new Workbox("./src-sw.js"); // debate in class as to weather this file needed a dot before the slath
+  const workboxSW = new Workbox("/src-sw.js"); // debate in class as to weather this file needed a dot before the slath
   workboxSW.register();
 } else {
   console.error("Service workers are not supported in this browser.");
