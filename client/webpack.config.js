@@ -3,9 +3,6 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 const path = require("path");
 const { InjectManifest } = require("workbox-webpack-plugin");
 
-// TODO: Add and configure workbox plugins for a service worker and manifest file.
-// TODO: Add CSS loaders and babel to webpack.
-
 module.exports = () => {
   return {
     mode: "development",
@@ -32,19 +29,15 @@ module.exports = () => {
         name: "PWA Text Editor",
         short_name: "JATE",
         description: "Progressive web app text editor.",
-        // select a background color #000000
         background_color: "#141C3A",
-        // select a theme color #000000
         theme_color: "#141C3A",
-        start_url: "/", // debate in class as to whether the dot in front of the slash is needed.
-        publicPath: "/", // debate in class as to whether the dot in front of the slash is needed.
+        start_url: "/",
+        publicPath: "/",
         icons: [
           {
-            // fill in the name of the icon image file(s)
             src: path.resolve("src/images/logo.png"),
-            // fill in the image sizes.
             sizes: [96, 128, 192, 256, 384, 512],
-            destination: path.join("assets", "icons"), // file name is src here instead of assets as in the mini project.
+            destination: path.join("assets", "icons"),
           },
         ],
       }),
