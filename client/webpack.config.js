@@ -36,8 +36,8 @@ module.exports = () => {
         background_color: "#141C3A",
         // select a theme color #000000
         theme_color: "#141C3A",
-        start_url: "./", // debate in class as to whether the dot in front of the slash is needed.
-        publicPath: "./", // debate in class as to whether the dot in front of the slash is needed.
+        start_url: "/", // debate in class as to whether the dot in front of the slash is needed.
+        publicPath: "/", // debate in class as to whether the dot in front of the slash is needed.
         icons: [
           {
             // fill in the name of the icon image file(s)
