@@ -6,9 +6,11 @@ This simple text editor is a progressive web app that uses the browser service w
 
 # Installation
 
-To install download the files from this repository and type `npm i` from the CLI. Then type `npm run start:dev` and open a browswer window to http:localhost:3000.
+Download a deployed version of this application from the live server at [herokuapp.com](https://lit-wildwood-38897.herokuapp.com/)
 
-![Appearance](/images/npm-run-start-dev.png)
+To install clone the files from this repository and type `npm i` into the CLI. Then type `npm run start:dev` and open a browswer window to `http:localhost:3000`.
+
+![npm run start:dev](/images/npm-run-start-dev.png)
 
 Install Node: [Node.js](https://nodejs.org/en/download/).
 
@@ -26,9 +28,13 @@ Install Concurrently [Concurrently](https://www.npmjs.com/package/concurrently)
 
 # Appearance
 
-Edit me
+### Browser version
 
-![Appearance](./public/images/)
+![PAW Browser](/images/pwa-browser.png)
+
+### Installed version
+
+![PAW Installed](/images/pwa-installed.png)
 
 # User Story
 
@@ -36,8 +42,8 @@ AS A developer I WANT to create notes or code snippets with or without an intern
 
 # Usage
 
-Edit me
+Use this application to take notes on or offline. Download this app
 
 ## Credits
 
-Credits to Node.js, Express,js, Webpack, Heroku,
+Credits to Node.js, Express,js, Webpack, Babel, Workbox, Nodemon, Concurrently, and Heroku as well as to UW Web Full Stack Course for starter code.
