@@ -42,7 +42,7 @@ AS A developer I WANT to create notes or code snippets with or without an intern
 
 # Usage
 
-Use this application to take notes on or offline. Download this app
+Use this application to take notes on or offline. Download the app as well to use on or offline and to access from an icon on your desktop.
 
 ## Credits
 
